@@ -271,7 +271,7 @@ public class AdvancedStatsFragment extends Fragment
             TextView t3v = new TextView(getContext());
             int Age = playerlist.get(i).age;
             String AgeString = Integer.toString(Age);
-            t3v.setText(AgeString);
+            t3v.setText(AgeString + " | ");
             tbrow.addView(t3v);
 
             TextView t4v = new TextView(getContext());
